@@ -1,0 +1,17 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <locale.h>
+int main (void) {
+	setlocale(LC_ALL,"Turkish");
+	int i, j, k;
+	printf("Bir kenar uzunluğunu giriniz:");
+	scanf("%d",&k);
+		for (i=1; i<=k;i++){
+			for (i=j; j<=k;j++){
+		printf("\n");
+			}
+		printf ("*");
+	}
+system("pause");
+return 0;
+}
